@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.vscode/
+adult/
+
+.DS_Store
+.ipynb_checkpoints/
