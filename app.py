@@ -11,7 +11,6 @@ Then run:
     streamlit run app.py
 """
 
-
 import json
 from pathlib import Path
 
