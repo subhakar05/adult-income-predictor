@@ -1,0 +1,6 @@
+Model,Training Accuracy,Test Accuracy,Accuracy Gap
+Custom KNN,0.846,0.8269,0.0191
+Decision Tree,0.8663,0.8567,0.0096
+SVM,0.8779,0.8429,0.035
+Naive Bayes,0.5085,0.5038,0.0048
+MLP,0.8668,0.8444,0.0224
