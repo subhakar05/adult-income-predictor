@@ -31,14 +31,14 @@ The project uses the **Census Income (Adult) Dataset**, which includes demograph
 
 ## Project Structure
 
+```
 adult-income-prediction/
-
 ├── .gitignore
 ├── README.md
 ├── app.py              # Application/demo entry point
 ├── main.ipynb          # Main notebook: preprocessing, model training, and evaluation
 └── requirements.txt
-
+```
 ## Methodology
 
 1. **Data Preprocessing**
@@ -98,6 +98,7 @@ jupyter notebook main.ipynb
 
 # Or run the application
 python app.py
+```
 
 ## Expected Outcome
 
