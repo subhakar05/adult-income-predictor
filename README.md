@@ -31,26 +31,13 @@ The project uses the **Census Income (Adult) Dataset**, which includes demograph
 
 ## Project Structure
 
-```
 adult-income-prediction/
-├── data/
-│   ├── raw/                # Original Census Income dataset
-│   └── processed/          # Cleaned and preprocessed data
-├── notebooks/               # Jupyter notebooks for EDA and experimentation
-├── src/
-│   ├── preprocessing.py     # Data cleaning and transformation
-│   ├── models/
-│   │   ├── decision_tree.py
-│   │   ├── svm.py
-│   │   ├── knn.py           # Custom KNN implementation
-│   │   ├── naive_bayes.py
-│   │   └── mlp.py
-│   ├── evaluate.py          # Evaluation metrics and comparison
-│   └── train.py             # Model training pipeline
-├── results/                 # Saved metrics, plots, and comparison tables
-├── requirements.txt
-└── README.md
-```
+
+├── .gitignore
+├── README.md
+├── app.py              # Application/demo entry point
+├── main.ipynb          # Main notebook: preprocessing, model training, and evaluation
+└── requirements.txt
 
 ## Methodology
 
@@ -105,15 +92,12 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-# Preprocess the dataset
-python src/preprocessing.py
+# Run the full pipeline (preprocessing, training, and evaluation)
+# via the notebook
+jupyter notebook main.ipynb
 
-# Train all models
-python src/train.py
-
-# Evaluate and compare models
-python src/evaluate.py
-```
+# Or run the application
+python app.py
 
 ## Expected Outcome
 
